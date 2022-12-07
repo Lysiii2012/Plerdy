@@ -776,7 +776,7 @@ top: -9px;
     .nav{
         display: flex;
         gap:30px;
-        margin-right: 280px;
+        margin-right: 100px;
     }
     .header_input{
         display: flex;
@@ -879,6 +879,7 @@ top: -9px;
         font-size: 36px;
         line-height: 42px;
         margin-bottom: 40px;
+        margin-right: 72px;
     }
     .head_enterprises {
         margin-bottom: 15px;
@@ -987,6 +988,11 @@ top: -9px;
     }
     .select__current .ger::before{
         top: -9px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .nav{
+        margin-right: 280px;
     }
 }
 .select {
