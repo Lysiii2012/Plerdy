@@ -697,15 +697,17 @@ top: -9px;
     .swipen_navigation{
         position: absolute;
         top: 105px;
-        right: -18px;
+        right: 6px;
         width: 82px;
         display: flex;
         align-items: center;
         gap: 8px;
+        transform: rotate(180deg);
+
     }
     .button_sw:active,
     .button_sw:focus{
-        box-shadow: 0px 5px 7px #163d7e;
+        box-shadow: 0px -5px 15px #163d7e;
         transition: all 500ms ease-in;
     }
     .modal_picture img{
